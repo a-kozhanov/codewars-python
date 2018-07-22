@@ -30,7 +30,6 @@ def digitize2(n):
 class TestDigitize(unittest.TestCase):
     def test_digitize1(self):
         self.assertEqual(digitize2(35231), [1, 3, 2, 5, 3])
-        pass
 
 
 if __name__ == "__main__":
